@@ -11,7 +11,7 @@ export default function Home() {
             width={500}
             height={500}
             priority={true}
-              className={` w-1/2 mx-auto z-100 md:w-[60%] lg:w-[75%]`}
+            className={` w-full mx-auto md:w-[70%] lg:w-[85%]`}
           />
         </div>
 
@@ -22,5 +22,5 @@ export default function Home() {
         </div>
       </div>
     </div>
-  ) 
+  )
 }
