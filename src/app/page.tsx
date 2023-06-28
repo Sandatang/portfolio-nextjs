@@ -11,7 +11,7 @@ export default function Home() {
             width={500}
             height={500}
             priority={true}
-            className={` w-full mx-auto md:w-[70%] lg:w-[85%]`}
+            className={` w-full mx-auto sm:w-[60%] md:w-[70%] lg:w-[85%]`}
           />
         </div>
 
