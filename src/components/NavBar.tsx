@@ -69,7 +69,8 @@ const NavBar = () => {
                     {/* MOBILE LINKS */}
                     {
                         isOpen &&
-                        <div className="min-w-[95vw] bg-black/80 absolute top-48 left-1/2 -translate-x-1/2 -translate-y-1/2  py-12 rounded-lg backdrop-blur-md"
+                        
+                        <div className="min-w-[95vw] bg-black/80 absolute top-48 left-1/2 z-10 -translate-x-1/2 -translate-y-1/2  py-12 rounded-lg backdrop-blur-md"
                         >
                             <nav className="text-white flex flex-col justify-center items-center font-medium text-md gap-4">
                                 <CustomLink href="/" text="Home" classNames="" />
